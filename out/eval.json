@@ -1,0 +1,23 @@
+{
+ "val_tokens": 1549282,
+ "vocab_size": 3490,
+ "eval_batches": 16,
+ "eval_batch": 16,
+ "tokens_evaluated": 65536,
+ "ar": {
+  "params": 1001392,
+  "step": 4000,
+  "val_bpc": 2.505591173598054,
+  "val_loss_nats": 1.7367434576153755,
+  "perplexity_per_char": 5.678819959927281
+ },
+ "diffusion": {
+  "params": 1001392,
+  "step": 4000,
+  "val_denoise_ce_bpc": 3.905500918590128,
+  "val_elbo_bpc": 3.9148274388228033,
+  "val_loss_nats": 2.7070869503950235,
+  "perplexity_per_char": 14.985558196047794
+ },
+ "bpc_gap_diffusion_minus_ar": 1.3999097449920739
+}
